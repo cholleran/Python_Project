@@ -6,6 +6,8 @@
 
 import pandas as pd
 
-dataframe = pd.read_csv("C:\\Users\MyComputer\Desktop\projects\Data\iris.csv")
+# Adding column names: https://chrisalbon.com/python/data_wrangling/pandas_dataframe_importing_csv/
+dataframe = pd.read_csv("C:\\Users\MyComputer\Desktop\projects\Data\iris.csv", names=['Sl_Length', 'Sl_width', 'Pl_Length', 'Pl Width', 'Class'])
 
-print(dataframe)
+# .to_string() formats the data for printing: https://stackoverflow.com/questions/19124601/is-there-a-way-to-pretty-print-the-entire-pandas-series-dataframe
+print(dataframe.to_string())
