@@ -11,3 +11,12 @@ dataframe = pd.read_csv("C:\\Users\MyComputer\Desktop\projects\Data\iris.csv", n
 
 # .to_string() formats the data for printing: https://stackoverflow.com/questions/19124601/is-there-a-way-to-pretty-print-the-entire-pandas-series-dataframe
 print(dataframe.to_string())
+
+print(dataframe.describe())
+
+#The below line of code creates a new object containing the data organized by species.https://chrisalbon.com/python/data_wrangling/pandas_apply_operations_to_groups/
+grouped = dataframe.groupby("Class")
+
+
+# It is now possible to calculate the mean for each individual species.
+print(grouped.mean())
