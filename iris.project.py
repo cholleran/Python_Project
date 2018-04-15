@@ -18,9 +18,8 @@ print(dataframe.to_string())
 print(dataframe.describe())
 
 #The below line of code creates a new object containing the data organized by species.https://chrisalbon.com/python/data_wrangling/pandas_apply_operations_to_groups/
+#It also produces a histogram of each variable for each species. https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
 grouped = dataframe.groupby("Class").hist()
 
-
-# It is now possible to calculate the mean for each individual species.
 print(grouped)
 
