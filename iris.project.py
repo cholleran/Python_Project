@@ -19,7 +19,15 @@ print(dataframe.describe())
 
 #The below line of code creates a new object containing the data organized by species.https://chrisalbon.com/python/data_wrangling/pandas_apply_operations_to_groups/
 #It also produces a histogram of each variable for each species. https://machinelearningmastery.com/quick-and-dirty-data-analysis-with-pandas/
-grouped = dataframe.groupby("Class").hist()
+grouped = dataframe.groupby("Class")
 
-print(grouped)
+# grouped.min() calls the minimum values for each species
+
+print('The Minimum Measurement of Each Species:')
+print(grouped.min())
+
+# grouped.max() calls the maximum for each species.
+
+print('The Maximum Measurement of Each Species:')
+print(grouped.max())
 
