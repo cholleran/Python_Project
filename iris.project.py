@@ -31,3 +31,8 @@ print(grouped.min())
 print('The Maximum Measurement of Each Species:')
 print(grouped.max())
 
+print('The Mean of Each Species:')
+print(grouped.mean())
+
+print('The Mean of Each Species variable')
+print(grouped.hist())
