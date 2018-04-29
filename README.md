@@ -1,4 +1,5 @@
 
+
 # Python_Project
 The aim of this project is to analyse Fisher's Iris dataset using Python. The iris dataset is a collection of observations of the dimensions of three Iris species - namely the length and width of sepals and petals.  It is a multivariate dataset, which makes it very suitable for analysis using Python. It contains 50 multivariate observations for each of the three species i.e. 
 (Iris setosa, Iris virginica and Iris versicolor)
@@ -43,3 +44,5 @@ Class
 Iris-setosa          5.006     3.418      1.464     0.244
 Iris-versicolor      5.936     2.770      4.260     1.326
 Iris-virginica       6.588     2.974      5.552     2.026
+
+
