@@ -1,3 +1,4 @@
+
 15-29 April
   - improve the code and expand analyses
   - Add findings and conclusion
@@ -14,11 +15,13 @@ Project Plan:
 	- Research Python packages for use in analysing the dataset.
      -     Create a Python script to begin analysis of the dataset
      -     Research the background of the dataset
+
 09 - 15 April
     - Visualize the dataset using the appropriate packages.
     -  Adapt and develop code to further analyse the dataset
    -  Write a summary of the analyses
    - Include notes and comments to demonstrate development process.
+
 15-29 April
   - improve the code and expand analyses
   - Add findings and conclusion
